@@ -1,11 +1,18 @@
 <html>
-    <body>
-        <div>
-            <input type="text" id="amount">
-            <p id='balance'></p>
-            <button id='deposit'>Deposit</button>
-            <button id='withdraw'>Withdraw</button>
-        </div>
+
+    <body style="background-image: url('./images/bg.jpg');
+    background-size: cover;">
+        <center>
+            <div style="margin-top:100px;padding:10px;background-image:url('./images/bg1.jpg'); width:400px;height:500px;background-color: #fff; box-shadow: 5px 9px 20px white;border-radius: 18px 18px 18px 18px;">
+
+                <h1>ETHEREUM BANK</h1>
+                <div style="position: relative;margin-top: 40%;"><input type="text" id="amount" placeholder="    Enter the amount" style="padding: 12px;"><br><br>
+                    <label for="">Balance :</label>
+                    <p id='balance'></p>
+                    <button id='deposit' style="padding:10px 15px;background-color:lightseagreen;margin-right: 25px;">Deposit</button>
+                    <button id='withdraw' style="padding:10px 15px; background-color:lightseagreen;">Withdraw</button></div>
+            </div>
+        </center>
        
         <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
@@ -115,3 +122,4 @@
         
     </body>
 </html>
+
