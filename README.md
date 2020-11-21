@@ -1,4 +1,4 @@
-Ether Bank - Ethereum smart contract
+# Ether Bank - Ethereum smart contract
 
 
  Ether Bank is an Ethereum contract that gives users the ability to safely and securely store ether on the blockchain (like a wallet existing on the blockchain).
